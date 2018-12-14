@@ -5,7 +5,7 @@ syntax enable
 set fileencodings=iso-2022-jp,euc-jp,cp932,utf8,default,latin1
 set fileformats=unix,dos,mac
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 
 set expandtab
 set hlsearch
