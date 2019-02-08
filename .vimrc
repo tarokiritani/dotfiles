@@ -8,6 +8,8 @@ set fileformats=unix,dos,mac
 set expandtab
 set hlsearch
 set mouse=a
+noremap k gk
+noremap j gj
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -15,7 +17,7 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 set laststatus=2
 
