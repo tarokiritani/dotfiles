@@ -1,3 +1,4 @@
 Files for linux settings.
 First run:
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle or Vundle.vim?
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
